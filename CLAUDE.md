@@ -1,3 +1,7 @@
+# Puppeteer / Chrome
+- Executable path en esta máquina: `/opt/pw-browsers/chromium-1194/chrome-linux/chrome`
+- Usar `executablePath` en `puppeteer.launch()` si Puppeteer no detecta el binario automáticamente.
+
 # Reglas para Claude Code — Ahorra Tokens
 
 ## 1. No programar sin contexto
