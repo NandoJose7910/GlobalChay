@@ -1,31 +1,73 @@
 # Ortholines S.A.S.
 
 > Última actualización: 2026-07-13
-> Fabricante directo de productos ortopédicos y deportivos en Bogotá, Colombia. Más de 20 años de trayectoria fabricando en taller propio, venta directa de fábrica sin intermediarios.
+> Fabricante directo de productos ortopédicos, línea blanda y línea deportiva en Bogotá, Colombia. Más de 20 años de trayectoria fabricando en taller propio. Venta directa de fábrica sin intermediarios — precios altamente competitivos en relación costo/calidad.
 
 ## Sobre la empresa
+
 - Nombre legal: Ortholines S.A.S.
 - NIT: 901.477.770-9
+- Tipo: Fabricante directo con taller de producción propio
+- Fundación: Más de 20 años de trayectoria
 - Ciudad: Bogotá, Colombia
+- Dirección: Avenida Américas #69F-59 Piso 4, Nueva Marsella, Bogotá (código postal 110831) — sede comercial y taller de fabricación
 - Sitio web: https://nandojose7910.github.io/GlobalChay/
 - Catálogo de productos: https://nandojose7910.github.io/GlobalChay/#catalogo-productos
 - Preguntas frecuentes: https://nandojose7910.github.io/GlobalChay/#faq
 
-## Productos principales
-- Muñeca & Mano: muñequeras, braces de túnel del carpo, soportes de muñeca
-- Codo: braces para epicondilitis, coderas de neopreno
-- Postura & Espalda: correctores posturales, fajas lumbares y dorsolumbares
-- Abdomen & Tórax: fajas abdominales, costilleros post-operatorio y post-parto
-- Rodilla: rodilleras y soportes para rehabilitación y actividad deportiva
-- Tobillo & Pie: férulas y soportes de tobillo
-- Ortesis & Férulas a Medida: fabricadas en taller propio con termoplástico de alta calidad
-- Soporte & Ayudas para la Movilidad: sillas de ruedas, caminadores, bastones, muletas, sillas de baño
+## Diferenciadores clave
+
+- Fabricación 100% propia en taller en Bogotá — control total de calidad, materiales y tiempos de entrega
+- Productos exclusivos no disponibles en otros puntos del mercado colombiano
+- Capacidad de fabricar ortesis y férulas a medida según indicación médica o necesidad del paciente
+- Adaptación de productos existentes a versiones personalizadas
+- Precios de fábrica directos al cliente, sin intermediarios
+- Entre los mejores en calidad de trabajo, materiales y tiempo de entrega del sector ortopédico en Colombia
+
+## Productos más vendidos
+
+- **Brace Túnel del Carpo** — Férula palmar con varilla metálica removible para inmovilización nocturna o diurna. Ambidiestra o específica D/I.
+- **Rodillera Rótula Abierta** — Soporte de rodilla con apertura rotuliana para estabilidad y compresión graduada.
+- **Corrector de Postura Ajustable** — Corrector postural para espalda y hombros, ajustable en talla.
+- **Férula Espica** — Ortesis de muñeca y pulgar fabricada a medida en termoplástico de alta calidad.
+- **Férula OTP (Ortesis)** — Ortesis tobillo-pie fabricada a medida según molde del paciente.
+- **Palmeta (Ortesis)** — Ortesis de mano fabricada a medida en taller propio.
+
+## Categorías de productos
+
+- **Muñeca & Mano:** muñequeras, braces de túnel del carpo, soportes de muñeca, palmetas
+- **Codo:** braces para epicondilitis, coderas de neopreno
+- **Postura & Espalda:** correctores posturales, fajas lumbares y dorsolumbares
+- **Abdomen & Tórax:** fajas abdominales, costilleros post-operatorio y post-parto
+- **Rodilla:** rodilleras y soportes para actividad deportiva y rehabilitación
+- **Tobillo & Pie:** férulas y soportes de tobillo
+- **Ortesis & Férulas a Medida:** fabricadas en taller propio con termoplástico de alta calidad — KAFO, TLSO, Férula Espica, OTP, Palmeta, Arnés de Pavlik, método Ponseti y más
+- **Soporte & Ayudas para la Movilidad:** sillas de ruedas, caminadores nacionales e importados, bastones de 1 y 4 apoyos, muletas, sillas de baño, caminador tipo roller
+
+## Servicios
+
+- Venta directa al público desde el taller
+- Fabricación de ortesis y férulas a medida según prescripción médica
+- Adaptación de productos existentes a versiones personalizadas
+- Envíos a toda Colombia por transportadora (despacho el mismo día para pedidos confirmados en la mañana)
+- Exportación al por mayor a cualquier país con logística coordinada por WhatsApp
+- Asesoría sin costo por WhatsApp todos los días
+
+## Horario de atención
+
+- Lunes a viernes: 8:00 AM – 5:00 PM (hora Bogotá, UTC-5)
+- Sábados: 8:00 AM – 1:00 PM
+- Domingos y festivos: cerrado en tienda física, atención online disponible
 
 ## Contacto
-- Email: ortholinesgerencia@gmail.com
-- Asesoría y pedidos: vía WhatsApp desde el sitio web
 
-## Redes sociales
+- Gerencia: +57 310 301 5391
+- Asesor Comercial: +57 311 883 4901
+- Email: ortholinesgerencia@gmail.com
+- WhatsApp: disponible desde el sitio web para todos los productos
+
+## Redes sociales y ubicación
+
 - Facebook: https://www.facebook.com/profile.php?id=61589489687876
 - Instagram: https://www.instagram.com/ortholinessas/
-- Google Maps: https://www.google.com/maps/place/ORTHOLINE+SAS/@4.6292822,-74.1307149,17z
+- Google Maps: https://maps.google.com/?cid=13616969544550538644
