@@ -18,17 +18,108 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "LocalBusiness", "MedicalBusiness"],
+  "@id": "https://nandojose7910.github.io/GlobalChay/#organization",
   "name": "Ortholines S.A.S.",
   "url": "https://nandojose7910.github.io/GlobalChay/",
   "logo": "https://nandojose7910.github.io/GlobalChay/brand_assets/Logo_Ortholines_S_A_S.png",
+  "image": "https://nandojose7910.github.io/GlobalChay/brand_assets/Logo_Ortholines_S_A_S.png",
   "email": "ortholinesgerencia@gmail.com",
   "taxID": "901.477.770-9",
-  "address": { "@type": "PostalAddress", "addressLocality": "Bogotá", "addressCountry": "CO" },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bogotá",
+    "addressRegion": "Bogotá, D.C.",
+    "addressCountry": "CO"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 4.6292822,
+    "longitude": -74.1307149
+  },
+  "hasMap": "https://www.google.com/maps/place/ORTHOLINE+SAS/@4.6292822,-74.1307149,17z",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+573103015391",
+      "contactType": "customer service",
+      "areaServed": "CO",
+      "availableLanguage": "Spanish"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+573222236174",
+      "contactType": "sales",
+      "areaServed": "CO",
+      "availableLanguage": "Spanish"
+    }
+  ],
+  "areaServed": { "@type": "Country", "name": "Colombia" },
+  "priceRange": "$$",
+  "currenciesAccepted": "COP",
+  "paymentAccepted": "WhatsApp, efectivo, transferencia",
+  "dateModified": "2026-07-13",
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61589489687876",
     "https://www.instagram.com/ortholinessas/",
     "https://www.google.com/maps/place/ORTHOLINE+SAS/@4.6292822,-74.1307149,17z"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://nandojose7910.github.io/GlobalChay/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo hago un pedido o solicito una cotización?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Escríbenos por WhatsApp al +57 310 301 5391 (Gerencia) o al +57 322 223 6174 (Asesor Comercial). Cuéntanos qué producto necesitas y te enviamos precio, disponibilidad y tallas al instante. La asesoría es sin costo y te atendemos todos los días."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hacen envíos a otras ciudades de Colombia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Enviamos a toda Colombia por transportadora. Despachamos el mismo día los pedidos confirmados temprano y coordinamos la entrega en tu ciudad. En las zonas donde la transportadora lo permite, también puedes pagar contraentrega."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la diferencia entre los productos nacionales y los importados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los productos nacionales los fabricamos directamente en nuestro taller en Bogotá, lo que permite mejor precio y fabricación a la medida. Los importados son equipos seleccionados de proveedores internacionales para líneas como las ayudas para la movilidad. Ambos pasan por nuestro control de calidad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Los productos tienen garantía?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Ofrecemos garantía de 3 meses por defectos de fabricación en todos nuestros productos. Si tu producto presenta una falla de origen, escríbenos por WhatsApp con la evidencia y lo revisamos para cambio o reparación. Sigue las indicaciones de uso para conservar la garantía."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Fabrican ortesis y férulas a la medida?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Fabricamos ortesis y férulas a la medida en nuestro propio taller, según las indicaciones de tu médico o fisioterapeuta y las medidas del paciente. Escríbenos por WhatsApp para tomar los datos y cotizar tu órtesis personalizada."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué medios de pago aceptan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aceptamos efectivo, transferencia bancaria, Nequi, Daviplata, Bre-B, USDT y medios de pago internacionales según el país. Coordinamos todo por WhatsApp al momento de confirmar tu pedido."
+      }
+    }
   ]
 }
 </script>
@@ -207,6 +298,22 @@ section{padding:80px 52px;}
 .tcard-name{font-weight:700;color:var(--az);font-size:13.5px;font-family:'Montserrat',sans-serif;}
 .tcard-detail{font-size:11.5px;color:#999;}
 .contacto-sec{background:var(--gr);padding:80px 52px;}
+.faq-sec{background:var(--bl);}
+.faq-list{max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:14px;}
+.faq-item{background:#fff;border:1px solid var(--grm);border-radius:14px;box-shadow:0 3px 16px rgba(26,58,143,.06);overflow:hidden;transition:box-shadow .25s ease,border-color .25s ease;}
+.faq-item:hover{border-color:rgba(244,124,26,.45);}
+.faq-item.open{border-color:var(--na);box-shadow:0 8px 26px rgba(26,58,143,.12);}
+.faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:18px;text-align:left;background:none;border:0;cursor:pointer;padding:22px 24px;font-family:'Montserrat',sans-serif;font-size:16.5px;font-weight:700;color:var(--az);line-height:1.4;}
+.faq-q:focus-visible{outline:3px solid var(--nal);outline-offset:-3px;border-radius:14px;}
+.faq-q:active{opacity:.82;}
+.faq-chev{flex:0 0 26px;width:26px;height:26px;border-radius:50%;background:rgba(244,124,26,.12);color:var(--na);display:grid;place-items:center;transition:transform .3s cubic-bezier(.34,1.56,.64,1),background .25s ease;}
+.faq-item.open .faq-chev{transform:rotate(180deg);background:var(--na);color:#fff;}
+.faq-chev svg{width:14px;height:14px;stroke:currentColor;stroke-width:2.5;fill:none;}
+.faq-a-wrap{display:grid;grid-template-rows:0fr;transition:grid-template-rows .32s ease;}
+.faq-item.open .faq-a-wrap{grid-template-rows:1fr;}
+.faq-a{overflow:hidden;}
+.faq-a p{padding:0 24px 24px;font-size:15px;line-height:1.75;color:#555;opacity:0;transition:opacity .3s ease;}
+.faq-item.open .faq-a p{opacity:1;}
 .contacto-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;max-width:1060px;margin:0 auto;align-items:start;}
 .cta-box{background:linear-gradient(135deg,var(--az) 0%,var(--azm) 100%);border-radius:22px;padding:44px 36px;color:white;box-shadow:0 18px 52px rgba(26,58,143,.28);position:relative;overflow:hidden;}
 .cta-box::before{content:'';position:absolute;top:-55px;right:-55px;width:220px;height:220px;background:radial-gradient(circle,rgba(244,124,26,.2),transparent 70%);border-radius:50%;}
@@ -1261,6 +1368,39 @@ footer{background:var(--azd);color:rgba(255,255,255,.54);padding:48px 52px 26px;
     </div>
   </div>
 </section>
+<section class="faq-sec" id="faq">
+  <div class="s-head">
+    <div class="s-label">Preguntas Frecuentes</div>
+    <h2 class="s-title">Resolvemos tus Dudas</h2>
+    <p class="s-sub">Todo lo que necesitas saber antes de hacer tu pedido. Si tienes otra pregunta, escríbenos por WhatsApp.</p>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item">
+      <button class="faq-q" type="button" aria-expanded="false"><span>¿Cómo hago un pedido o solicito una cotización?</span><span class="faq-chev"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+      <div class="faq-a-wrap"><div class="faq-a"><p>Escríbenos por WhatsApp al +57 310 301 5391 (Gerencia) o al +57 322 223 6174 (Asesor Comercial). Cuéntanos qué producto necesitas y te enviamos precio, disponibilidad y tallas al instante. La asesoría es sin costo y te atendemos todos los días.</p></div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" type="button" aria-expanded="false"><span>¿Hacen envíos a otras ciudades de Colombia?</span><span class="faq-chev"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+      <div class="faq-a-wrap"><div class="faq-a"><p>Sí. Enviamos a toda Colombia por transportadora. Despachamos el mismo día los pedidos confirmados temprano y coordinamos la entrega en tu ciudad. En las zonas donde la transportadora lo permite, también puedes pagar contraentrega.</p></div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" type="button" aria-expanded="false"><span>¿Cuál es la diferencia entre los productos nacionales y los importados?</span><span class="faq-chev"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+      <div class="faq-a-wrap"><div class="faq-a"><p>Los productos nacionales los fabricamos directamente en nuestro taller en Bogotá, lo que permite mejor precio y fabricación a la medida. Los importados son equipos seleccionados de proveedores internacionales para líneas como las ayudas para la movilidad. Ambos pasan por nuestro control de calidad.</p></div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" type="button" aria-expanded="false"><span>¿Los productos tienen garantía?</span><span class="faq-chev"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+      <div class="faq-a-wrap"><div class="faq-a"><p>Sí. Ofrecemos garantía de 3 meses por defectos de fabricación en todos nuestros productos. Si tu producto presenta una falla de origen, escríbenos por WhatsApp con la evidencia y lo revisamos para cambio o reparación. Sigue las indicaciones de uso para conservar la garantía.</p></div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" type="button" aria-expanded="false"><span>¿Fabrican ortesis y férulas a la medida?</span><span class="faq-chev"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+      <div class="faq-a-wrap"><div class="faq-a"><p>Sí. Fabricamos ortesis y férulas a la medida en nuestro propio taller, según las indicaciones de tu médico o fisioterapeuta y las medidas del paciente. Escríbenos por WhatsApp para tomar los datos y cotizar tu órtesis personalizada.</p></div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" type="button" aria-expanded="false"><span>¿Qué medios de pago aceptan?</span><span class="faq-chev"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+      <div class="faq-a-wrap"><div class="faq-a"><p>Aceptamos efectivo, transferencia bancaria, Nequi, Daviplata, Bre-B, USDT y medios de pago internacionales según el país. Coordinamos todo por WhatsApp al momento de confirmar tu pedido.</p></div></div>
+    </div>
+  </div>
+</section>
 <footer>
   <div class="foot-grid">
     <div class="foot-brand">
@@ -1640,6 +1780,22 @@ function goScard(dot,idx){
   dots[idx].classList.add('active');
   if(ctr) ctr.textContent=(idx+1)+'/'+slides.length;
 }
+</script>
+<script>
+document.querySelectorAll('.faq-q').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var item = btn.closest('.faq-item');
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(function(o){
+      o.classList.remove('open');
+      o.querySelector('.faq-q').setAttribute('aria-expanded','false');
+    });
+    if(!isOpen){
+      item.classList.add('open');
+      btn.setAttribute('aria-expanded','true');
+    }
+  });
+});
 </script>
 </body>
 </html>
