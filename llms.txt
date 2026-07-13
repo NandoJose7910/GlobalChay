@@ -1,5 +1,6 @@
 # Ortholines S.A.S.
 
+> Última actualización: 2026-07-13
 > Fabricante directo de productos ortopédicos y deportivos en Bogotá, Colombia. Más de 20 años de trayectoria fabricando en taller propio, venta directa de fábrica sin intermediarios.
 
 ## Sobre la empresa
@@ -7,6 +8,8 @@
 - NIT: 901.477.770-9
 - Ciudad: Bogotá, Colombia
 - Sitio web: https://nandojose7910.github.io/GlobalChay/
+- Catálogo de productos: https://nandojose7910.github.io/GlobalChay/#catalogo-productos
+- Preguntas frecuentes: https://nandojose7910.github.io/GlobalChay/#faq
 
 ## Productos principales
 - Muñeca & Mano: muñequeras, braces de túnel del carpo, soportes de muñeca
