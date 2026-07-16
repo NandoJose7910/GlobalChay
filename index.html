@@ -3151,8 +3151,7 @@ function submitB2B(e) {
       var tallaEl = card.querySelector('.pcard-specs, .ocard-specs');
       var priceEl = card.querySelector('.pcard-price, .ocard-price');
       var imgs    = Array.from(card.querySelectorAll('.carousel-slide img'))
-                        .map(function(i) { return i.src; })
-                        .filter(function(s) { return s.startsWith('data:'); });
+                        .map(function(i) { return i.src; });
 
       if (!nameEl || imgs.length === 0) return;
 
