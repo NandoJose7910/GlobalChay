@@ -163,16 +163,7 @@ nav{background:var(--bl);padding:6px 32px;display:flex;align-items:center;justif
 .btn-ghost{border:2px solid rgba(255,255,255,.38);color:white;padding:14px 28px;border-radius:9px;font-weight:600;font-size:15px;text-decoration:none;font-family:'Montserrat',sans-serif;display:inline-block;transition:border-color .2s,background .2s,opacity .2s;}
 .btn-ghost:hover{border-color:white;background:rgba(255,255,255,.1);}
 .hero-visual{position:relative;z-index:2;}
-.collage-outer{width:100%;padding:16px;box-sizing:border-box;}
-.collage-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);gap:8px;}
-.ci{background:white;border-radius:12px;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border:2px solid transparent;transition:border-color 0.3s,transform 0.3s;cursor:pointer;}
-.ci:hover{border-color:#f47c1a;transform:scale(1.04);}
-.ci img{width:100%;height:100%;object-fit:contain;transition:opacity 0.3s;}
-.ci:hover img{opacity:0.15;}
-.ci-hover-overlay{position:absolute;inset:0;display:flex;align-items:flex-end;padding:10px;opacity:0;transition:opacity 0.3s;pointer-events:none;}
-.ci:hover .ci-hover-overlay{opacity:1;}
-.ci-hover-label{color:#1a3a8f;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;line-height:1.2;font-family:'Montserrat',sans-serif;}
-@media(max-width:768px){.collage-grid{grid-template-columns:repeat(2,1fr);}}
+.collage-outer{width:100%;max-width:100%;border-radius:12px;overflow:hidden;aspect-ratio:1456/720;}
 .trust{background:var(--na);padding:16px 52px;display:flex;justify-content:center;gap:44px;flex-wrap:wrap;}
 .trust-item{display:flex;align-items:center;gap:8px;color:white;font-size:13.5px;font-weight:600;font-family:'Montserrat',sans-serif;}
 section{padding:80px 52px;}
@@ -378,13 +369,11 @@ footer{background:var(--azd);color:rgba(255,255,255,.54);padding:48px 52px 26px;
 @media(max-width:768px){
   .hero{grid-template-columns:1fr;}
   .hero-visual{display:block!important;width:100%;margin-top:24px;}
-  .collage-outer,.collage-grid{display:grid!important;visibility:visible!important;overflow:visible!important;max-height:none!important;height:auto!important;width:100%!important;}
-  .collage-grid{grid-template-columns:repeat(2,1fr)!important;gap:6px!important;}
+  .collage-outer{display:block!important;visibility:visible!important;overflow:hidden!important;width:100%!important;}
   .about-grid{grid-template-columns:1fr!important;}
   .about-visual{display:block!important;width:100%!important;}
   .about-visual img,[class*="about"] img{display:block!important;width:100%!important;height:auto!important;}
-}.collage-outer{max-height:none;padding:8px;}
-@media(max-width:480px){.collage-grid{grid-template-columns:repeat(2,1fr)!important;gap:4px;}}
+}
 
 .b2b-section { font-family: 'Segoe UI', system-ui, sans-serif; background: #1a3a8f; padding: 64px 20px 56px; position: relative; overflow: hidden; }
 .b2b-bg-deco { position: absolute; top: -80px; right: -80px; width: 400px; height: 400px; border-radius: 50%; background: rgba(255,255,255,0.04); pointer-events: none; }
@@ -515,20 +504,6 @@ footer{background:var(--azd);color:rgba(255,255,255,.54);padding:48px 52px 26px;
   .collage-outer {
     width: 100% !important;
     max-width: 100% !important;
-    padding: 8px !important;
-    box-sizing: border-box !important;
-  }
-  .collage-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    width: 100% !important;
-    gap: 6px !important;
-    max-height: none !important;
-    height: auto !important;
-  }
-  .ci {
-    width: 100% !important;
-    min-width: 0 !important;
   }
   .b2b-bg-deco,
   .b2b-bg-deco2 {
@@ -2473,7 +2448,7 @@ footer{background:var(--azd);color:rgba(255,255,255,.54);padding:48px 52px 26px;
     </div>
   </div>
   <div class="hero-visual">
-    <div class="collage-outer"><div class="collage-grid"><div class="ci"><img src="img/corrector-de-postura-en-y.webp" width="800" height="800" loading="eager" alt="Corrector de Postura en Y"><div class="ci-hover-overlay"><span class="ci-hover-label">Corrector<br>de Postura</span></div></div><div class="ci"><img src="img/corset-jewett.webp" width="800" height="800" loading="eager" alt="Corset Jewett"><div class="ci-hover-overlay"><span class="ci-hover-label">Corset<br>Jewett</span></div></div><div class="ci"><img src="img/brace-tunel-del-carpo.webp" width="800" height="800" loading="eager" alt="Brace Túnel del Carpo"><div class="ci-hover-overlay"><span class="ci-hover-label">Brace Túnel<br>del Carpo</span></div></div><div class="ci"><img src="img/faja-lumbosacra-tipo-camp.webp" width="800" height="800" loading="eager" alt="Faja Lumbosacra Tipo Camp"><div class="ci-hover-overlay"><span class="ci-hover-label">Faja<br>Lumbosacra</span></div></div><div class="ci"><img src="img/rodillera-universal-ajustable.webp" width="800" height="800" loading="eager" alt="Rodillera Universal Ajustable"><div class="ci-hover-overlay"><span class="ci-hover-label">Rodillera<br>Ajustable</span></div></div><div class="ci"><img src="img/ferula-para-pie-caido.webp" width="800" height="800" loading="eager" alt="Férula para Pie Caído"><div class="ci-hover-overlay"><span class="ci-hover-label">Férula<br>Pie Caído</span></div></div><div class="ci"><img src="img/codera-cerrada-neopreno.webp" width="800" height="800" loading="eager" alt="Codera Cerrada Neopreno"><div class="ci-hover-overlay"><span class="ci-hover-label">Codera<br>Neopreno</span></div></div><div class="ci"><img src="img/cabestrillo-acolchado-adulto.webp" width="800" height="800" loading="eager" alt="Cabestrillo Acolchado Adulto"><div class="ci-hover-overlay"><span class="ci-hover-label">Cabestrillo<br>Acolchado</span></div></div></div></div>
+    <div class="collage-outer"><img src="img/collage-hero.webp" alt="Productos ortopédicos Ortholines S.A.S. — línea blanda, ortopédica y deportiva" width="1456" height="720" loading="eager" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"></div>
   </div>
 </section>
 <div class="trust">
