@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nandojose7910.github.io/GlobalChay/sitemap.xml
+Sitemap: https://www.ortholinessas.com/sitemap.xml
