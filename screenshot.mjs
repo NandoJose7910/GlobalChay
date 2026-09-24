@@ -15,7 +15,6 @@ while (fs.existsSync(path.join(dir, label ? `screenshot-${n}-${label}.png` : `sc
 const outFile = path.join(dir, label ? `screenshot-${n}-${label}.png` : `screenshot-${n}.png`);
 
 const browser = await puppeteer.launch({
-  executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome',
   args: ['--no-sandbox', '--disable-setuid-sandbox'],
 });
 const page = await browser.newPage();

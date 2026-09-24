@@ -1,6 +1,5 @@
 import puppeteer from 'puppeteer';
 const browser = await puppeteer.launch({
-  executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome',
   args: ['--no-sandbox', '--disable-setuid-sandbox'],
 });
 const page = await browser.newPage();
